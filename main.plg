@@ -1,0 +1,1163 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\sitak\OneDrive\code\MCU\calendar\main.uvproj
+Project File Date:  12/31/2020
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=69.2 xdata=0 code=1537
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=74.2 xdata=0 code=1571
+creating hex file from "main"...
+"main" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=76.2 xdata=0 code=1573
+creating hex file from "main"...
+"main" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=76.2 xdata=0 code=1487
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=76.2 xdata=0 code=1487
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+*** ERROR L107: ADDRESS SPACE OVERFLOW
+    SPACE:   DATA    
+    SEGMENT: _DATA_GROUP_
+    LENGTH:  0025H
+Program Size: data=108.2 xdata=0 code=1487
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=76.2 xdata=0 code=1487
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=65.2 xdata=0 code=1489
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=48.2 xdata=0 code=1487
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=80.2 xdata=0 code=1521
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=80.2 xdata=0 code=1526
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=80.2 xdata=0 code=1526
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1399
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1404
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+DS1302.H(49): error C129: missing ';' before '*'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+DS1302.H(49): error C129: missing ';' before '*'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+DS1302.H(49): error C129: missing ';' before '*'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+DS1302.H(166): error C202: 'uint': undefined identifier
+DS1302.H(166): error C141: syntax error near 'i'
+DS1302.H(167): error C202: 'uchar': undefined identifier
+DS1302.H(168): error C202: 'i': undefined identifier
+DS1302.H(169): error C202: 'i': undefined identifier
+DS1302.H(171): error C202: 'z': undefined identifier
+DS1302.H(172): error C202: 'z': undefined identifier
+DS1302.H(173): error C202: 'z': undefined identifier
+DS1302.H(174): error C202: 'z': undefined identifier
+DS1302.H(175): error C202: 'z': undefined identifier
+DS1302.H(176): error C202: 'z': undefined identifier
+DS1302.H(177): error C202: 'z': undefined identifier
+DS1302.H(179): error C202: 'z': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1543
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DATETOSTR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1518
+creating hex file from "main"...
+"main" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+CALENDAR.H(31): error C202: 'Fline': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1543
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1543
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1543
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=49.2 xdata=0 code=1543
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+CALENDAR.H(29): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(31): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(38): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(47): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(48): warning C209: '_lcd_disString': too few actual parameters
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=52.2 xdata=0 code=1549
+creating hex file from "main"...
+"main" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+LCD1602.H(25): error C141: syntax error near '=', expected ')'
+compiling LCD1602.c...
+LCD1602.H(25): error C141: syntax error near '=', expected ')'
+LCD1602.C(118): error C141: syntax error near '=', expected ')'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+CALENDAR.H(29): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(31): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(38): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(47): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(48): warning C209: '_lcd_disString': too few actual parameters
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+LCD1602.C(118): error C141: syntax error near '=', expected ')'
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+CALENDAR.H(29): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(31): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(38): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(47): warning C209: '_lcd_disString': too few actual parameters
+CALENDAR.H(48): warning C209: '_lcd_disString': too few actual parameters
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=52.2 xdata=0 code=1549
+creating hex file from "main"...
+"main" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=52.2 xdata=0 code=1578
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1642
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1650
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1655
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1657
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1657
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1696
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1643
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1639
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1643
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=56.2 xdata=0 code=1636
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): error C141: syntax error near 'unsigned'
+MAIN.C(15): error C141: syntax error near 'unsigned'
+MAIN.C(16): error C141: syntax error near 'unsigned'
+MAIN.C(16): error C202: 'year': undefined identifier
+MAIN.C(17): error C141: syntax error near 'unsigned'
+MAIN.C(17): error C202: 'h': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): error C141: syntax error near 'unsigned'
+MAIN.C(15): error C141: syntax error near 'unsigned'
+MAIN.C(16): error C141: syntax error near 'unsigned'
+MAIN.C(16): error C202: 'year': undefined identifier
+MAIN.C(17): error C141: syntax error near 'unsigned'
+MAIN.C(17): error C202: 'h': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=54.2 xdata=0 code=1632
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=54.2 xdata=0 code=1632
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(9): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=54.2 xdata=0 code=1632
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(16): error C141: syntax error near 'unsigned'
+MAIN.C(16): error C202: 'year': undefined identifier
+MAIN.C(17): error C141: syntax error near 'unsigned'
+MAIN.C(17): error C202: 'h': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(18): error C141: syntax error near 'unsigned'
+MAIN.C(18): error C202: 'year': undefined identifier
+MAIN.C(19): error C141: syntax error near 'unsigned'
+MAIN.C(19): error C202: 'h': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(18): error C141: syntax error near 'unsigned'
+MAIN.C(18): error C202: 'year': undefined identifier
+MAIN.C(19): error C141: syntax error near 'unsigned'
+MAIN.C(19): error C202: 'month': undefined identifier
+MAIN.C(20): error C141: syntax error near 'unsigned'
+MAIN.C(20): error C202: 'day': undefined identifier
+MAIN.C(21): error C141: syntax error near 'unsigned'
+MAIN.C(21): error C202: 'h': undefined identifier
+MAIN.C(22): error C141: syntax error near 'unsigned'
+MAIN.C(22): error C202: 'm': undefined identifier
+MAIN.C(23): error C141: syntax error near 'unsigned'
+MAIN.C(23): error C202: 's': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(18): error C141: syntax error near 'int'
+MAIN.C(18): error C202: 'year': undefined identifier
+MAIN.C(19): error C141: syntax error near 'unsigned'
+MAIN.C(19): error C202: 'month': undefined identifier
+MAIN.C(20): error C141: syntax error near 'unsigned'
+MAIN.C(20): error C202: 'day': undefined identifier
+MAIN.C(21): error C141: syntax error near 'unsigned'
+MAIN.C(21): error C202: 'h': undefined identifier
+MAIN.C(22): error C141: syntax error near 'unsigned'
+MAIN.C(22): error C202: 'm': undefined identifier
+MAIN.C(23): error C141: syntax error near 'unsigned'
+MAIN.C(23): error C202: 's': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(18): error C141: syntax error near 'unsigned'
+MAIN.C(18): error C202: 'year': undefined identifier
+MAIN.C(19): error C141: syntax error near 'unsigned'
+MAIN.C(19): error C202: 'month': undefined identifier
+MAIN.C(20): error C141: syntax error near 'unsigned'
+MAIN.C(20): error C202: 'day': undefined identifier
+MAIN.C(21): error C141: syntax error near 'unsigned'
+MAIN.C(21): error C202: 'h': undefined identifier
+MAIN.C(22): error C141: syntax error near 'unsigned'
+MAIN.C(22): error C202: 'm': undefined identifier
+MAIN.C(23): error C141: syntax error near 'unsigned'
+MAIN.C(23): error C202: 's': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(11): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=54.2 xdata=0 code=1632
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(16): error C141: syntax error near 'unsigned'
+MAIN.C(17): error C141: syntax error near 'unsigned'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(18): error C141: syntax error near 'unsigned'
+MAIN.C(18): error C202: 'year': undefined identifier
+MAIN.C(19): error C141: syntax error near 'unsigned'
+MAIN.C(19): error C202: 'month': undefined identifier
+MAIN.C(20): error C141: syntax error near 'unsigned'
+MAIN.C(20): error C202: 'day': undefined identifier
+MAIN.C(21): error C141: syntax error near 'unsigned'
+MAIN.C(21): error C202: 'h': undefined identifier
+MAIN.C(22): error C141: syntax error near 'unsigned'
+MAIN.C(22): error C202: 'm': undefined identifier
+MAIN.C(23): error C141: syntax error near 'unsigned'
+MAIN.C(23): error C202: 's': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=58.2 xdata=0 code=1653
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=66.2 xdata=0 code=1653
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(8): error C141: syntax error near '01234567'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=66.2 xdata=0 code=1890
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=66.2 xdata=0 code=1653
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+MAIN.C(40): warning C209: '_lcd_disString': too few actual parameters
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_SHOWTIME?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_HOMEPAGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_ALL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=41.3 xdata=0 code=1738
+creating hex file from "main"...
+"main" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+MAIN.C(43): warning C209: '_lcd_disString': too few actual parameters
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_SHOWTIME?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_HOMEPAGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_ALL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=41.2 xdata=0 code=1751
+creating hex file from "main"...
+"main" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+MAIN.C(43): warning C209: '_lcd_disString': too few actual parameters
+MAIN.C(44): warning C209: '_lcd_disString': too few actual parameters
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_SHOWTIME?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_HOMEPAGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_ALL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=41.2 xdata=0 code=1762
+creating hex file from "main"...
+"main" - 0 Error(s), 10 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+MAIN.C(46): warning C209: '_lcd_disString': too few actual parameters
+MAIN.C(46): error C214: illegal pointer conversion
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_SHOWTIME?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_HOMEPAGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_ALL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=41.2 xdata=0 code=1902
+creating hex file from "main"...
+"main" - 0 Error(s), 8 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+MAIN.C(49): warning C209: '_lcd_disString': too few actual parameters
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_SHOWTIME?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_HOMEPAGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_ALL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=41.2 xdata=0 code=1913
+creating hex file from "main"...
+"main" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+CALENDAR.H(55): error C141: syntax error near '*', expected ')'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+CALENDAR.H(59): warning C173: missing return-expression
+CALENDAR.H(55): warning C280: 'str': unreferenced local variable
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+MAIN.C(59): warning C290: missing return value
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_SHOWTIME?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_HOMEPAGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_MONTH_WORD2VALUE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_ALL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  MAIN
+    MODULE:  D:\PROGRAM FILE\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  MAIN
+    MODULE:  D:\PROGRAM FILE\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+    ADDRESS: 01B1H
+Program Size: data=44.3 xdata=0 code=1861
+creating hex file from "main"...
+"main" - 0 Error(s), 14 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(14): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_SHOWTIME?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_HOMEPAGE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_CALENDAR_MONTH_WORD2VALUE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?CALENDAR_EDITANDLOOKUPLUNARDATE?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_INIT_ALL?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  MAIN
+    MODULE:  D:\PROGRAM FILE\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  MAIN
+    MODULE:  D:\PROGRAM FILE\KEIL\C51\LIB\C51S.LIB (?C_INIT)
+    ADDRESS: 03D8H
+Program Size: data=44.3 xdata=0 code=2324
+creating hex file from "main"...
+"main" - 0 Error(s), 11 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(19): error C141: syntax error near 'unsigned'
+MAIN.C(19): error C202: 'i': undefined identifier
+MAIN.C(20): error C141: syntax error near 'unsigned'
+MAIN.C(20): error C202: 'j': undefined identifier
+MAIN.C(23): error C141: syntax error near 'unsigned'
+MAIN.C(23): error C202: 'tem': undefined identifier
+MAIN.C(24): error C141: syntax error near ';'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(21): error C141: syntax error near 'unsigned'
+MAIN.C(21): error C202: 'tem': undefined identifier
+MAIN.C(22): error C141: syntax error near ';'
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+MAIN.C(54): warning C209: '_lcd_disString': too few actual parameters
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN1?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=79.2 xdata=0 code=2580
+creating hex file from "main"...
+"main" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+MAIN.C(54): warning C209: '_lcd_disString': too few actual parameters
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN1?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=79.2 xdata=0 code=2580
+creating hex file from "main"...
+"main" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+MAIN.C(51): error C202: 'Fline': undefined identifier
+compiling LCD1602.c...
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+MAIN.C(51): warning C209: '_lcd_disString': too few actual parameters
+MAIN.C(52): warning C209: '_lcd_disString': too few actual parameters
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?MAIN1?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=79.2 xdata=0 code=2465
+creating hex file from "main"...
+"main" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_STOP?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=70.2 xdata=0 code=2392
+creating hex file from "main"...
+"main" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=64.2 xdata=0 code=2311
+creating hex file from "main"...
+"main" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=66.2 xdata=0 code=2318
+creating hex file from "main"...
+"main" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(15): warning C280: 'Time': unreferenced local variable
+compiling LCD1602.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?TRANS2LUNARCALENDAR?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD_POS?LCD1602
+Program Size: data=66.2 xdata=0 code=2318
+creating hex file from "main"...
+"main" - 0 Error(s), 3 Warning(s).

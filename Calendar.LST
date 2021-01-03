@@ -1,0 +1,61 @@
+C51 COMPILER V9.01   CALENDAR                                                              12/31/2020 15:30:23 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE CALENDAR
+OBJECT MODULE PLACED IN Calendar.OBJ
+COMPILER INVOKED BY: D:\program File\keil\C51\BIN\C51.EXE Calendar.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include <intrins.h>
+   3          #include <Calendar.h>
+   4          #include "DS1302.h"
+   5          #include "LCD1602.h"
+   6          #include "KeyScan.h"
+   7          
+   8          
+   9          char word1[] = "Welcome!";
+  10          char word2[] = "sitakerchen ^ - ^";
+  11          
+  12          void calendar_showTime(SYSTEMTIME *Time)
+  13          {
+  14   1              while (1)
+  15   1              {
+  16   2                      DS1302_GetTime(Time);
+  17   2                      TimeToStr(Time);
+  18   2                      lcd_disString(FLine + 0x0, Time->TimeString);
+  19   2                      if (read_key() == 4)
+  20   2                      {
+  21   3                              break;
+  22   3                      }
+  23   2              }
+  24   1      }
+  25          
+  26          void calendar_homePage()
+  27          {
+  28   1              lcd_disString(FLine + 0x03, word1);
+  29   1              delayms(10);
+  30   1              lcd_disString(SLine + 0x01, word2);
+  31   1              delayms(10);
+  32   1      }
+  33          
+  34          char* trans2LunarCalendar()
+  35          {
+  36   1      
+  37   1              return "85-85-85"  ;
+  38   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    713    ----
+   CONSTANT SIZE    =      9    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     27       3
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       2
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

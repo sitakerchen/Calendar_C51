@@ -1,0 +1,147 @@
+C51 COMPILER V9.01   MAIN                                                                  01/04/2021 02:27:36 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: D:\program File\keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #include <intrins.h>
+   3          #include "DS1302.h"
+   4          #include "KeyScan.h"
+   5          #include "LCD1602.h"
+   6          #include "Calendar.h"
+   7          
+   8          /***************init*******************/
+   9          uchar code DateStr[] = __DATE__;        //      xx-xx-xx
+  10          uchar code TimeStr[] = __TIME__;        //  xx:xx:xx 
+  11          uchar tem[4];
+  12          uchar year, month, day, h, m, s;
+  13          
+  14          
+  15          void init_All(SYSTEMTIME *Time, uint i)
+  16          {
+  17   1              DS1302_Initial();
+  18   1              lcd_init();
+  19   1              delayms(10);
+  20   1      
+  21   1              year = (DateStr[10] - '0') + (DateStr[9] - '0') * 10;
+  22   1              for (i = 0; i < 3; ++ i ) tem[i] = DateStr[i];
+  23   1              tem[3] = '\0';
+  24   1              month = calendar_month_Word2value(tem);
+  25   1              day = (DateStr[5] - '0') + (DateStr[4] - '0') * 10;
+  26   1      
+  27   1              h = (DateStr[1] - '0') + (DateStr[0] - '0') * 10;
+  28   1              m = (DateStr[4] - '0') + (DateStr[3] - '0') * 10;
+  29   1              s = (DateStr[7] - '0') + (DateStr[6] - '0') * 10;
+  30   1              DS1302_Stop(1);
+  31   1      
+  32   1              DS1302_SetTime(DS1302_YEAR, year);
+  33   1              DS1302_SetTime(DS1302_MONTH, month);
+  34   1              DS1302_SetTime(DS1302_DAY, day);
+  35   1              DS1302_SetTime(DS1302_HOUR, h);
+  36   1              DS1302_SetTime(DS1302_MINUTE, m);
+  37   1              DS1302_SetTime(DS1302_SECOND, s);
+  38   1      
+  39   1              DS1302_Stop(0);
+  40   1      }
+*** WARNING C280 IN LINE 15 OF MAIN.C: 'Time': unreferenced local variable
+  41          /**************************************/
+  42          
+  43          /****************main********************/
+  44          
+  45          /****************test module*************/
+  46          
+  47          //void main() // test
+  48          //{
+  49          //      DS1302_Initial();
+  50          //      lcd_init();
+  51          //      delayms(10);
+  52          //      year = (DateStr[10] - '0') + (DateStr[9] - '0') * 10;
+  53          //      while (1)
+  54          //      {
+C51 COMPILER V9.01   MAIN                                                                  01/04/2021 02:27:36 PAGE 2   
+
+  55          //              lcd_disString(FLine, TimeStr);
+  56          //              lcd_disString(SLine, DateStr);
+  57          //      }
+  58          //}
+  59          
+  60          /*****************test end***************/
+  61          
+  62          void main()
+  63          {
+  64   1              /***param define***/
+  65   1              SYSTEMTIME time;
+  66   1              uint key = 0;
+  67   1              int flag = 0;
+  68   1              uint i = 0;
+  69   1              uint countDown = 2;
+  70   1              /***define end*****/
+  71   1      
+  72   1              init_All(&time, 0);
+  73   1                      
+  74   1              while (1)
+  75   1              {
+  76   2                      if (flag == 0)
+  77   2                      {
+  78   3                              lcd_wcmd(0x01);
+  79   3                              calendar_homePage();
+  80   3                              for (i = countDown; i >= 1; -- i)
+  81   3                              {       
+  82   4                                      lcd_wcmd(FLine + 15);
+  83   4                                      lcd_wdat(i + '0'); 
+  84   4                                      delayms(1000);                                                  
+  85   4                              }
+  86   3      
+  87   3                              lcd_wcmd(FLine + 15);
+  88   3                              lcd_wdat(' ');
+  89   3      
+  90   3                              flag = 1;
+  91   3                      }
+  92   2                      key = read_key();
+  93   2      
+  94   2                      switch (key)
+  95   2                      {
+  96   3                              case 1: //      current time
+  97   3                                      lcd_wcmd(0x01);  
+  98   3                                      calendar_showTime(&time);
+  99   3                                      flag = 0;
+ 100   3                                      break;
+ 101   3                              case 2: // lunar date
+ 102   3                                      lcd_wcmd(0x01); 
+ 103   3                                      calendar_editAndLookupLunarDate();
+ 104   3                                      flag = 0;
+ 105   3                                      break;
+ 106   3                              case 3: //      empty
+ 107   3                                      
+ 108   3                                      flag = 0;       
+ 109   3                                      break;
+ 110   3                              case 4: 
+ 111   3                                      // exit key
+ 112   3                                      flag = 0;
+ 113   3                                      break;
+ 114   3                              default:
+ 115   3                                      //      do nothing
+ 116   3                                      break;
+C51 COMPILER V9.01   MAIN                                                                  01/04/2021 02:27:36 PAGE 3   
+
+ 117   3                      }
+ 118   2              }
+ 119   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =   1453    ----
+   CONSTANT SIZE    =     96    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     13      47
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----       2
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
