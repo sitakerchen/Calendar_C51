@@ -213,7 +213,7 @@
               <RCB>
                 <Type>0</Type>
                 <StartAddress>0x0</StartAddress>
-                <Size>0x10000</Size>
+                <Size>0xffff</Size>
               </RCB>
               <RXB>
                 <Type>0</Type>
@@ -370,6 +370,16 @@
               <FileName>DS1302.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\DS1302.h</FilePath>
+            </File>
+            <File>
+              <FileName>KeyScan.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\KeyScan.h</FilePath>
+            </File>
+            <File>
+              <FileName>Calendar.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Calendar.h</FilePath>
             </File>
           </Files>
         </Group>

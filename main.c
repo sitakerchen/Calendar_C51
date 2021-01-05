@@ -9,6 +9,7 @@
 uchar code DateStr[] = __DATE__;	//	xx-xx-xx
 uchar code TimeStr[] = __TIME__;	//  xx:xx:xx 
 uchar tem[4];
+uchar test[3] = "  \0";
 uchar year, month, day, h, m, s;
 
 
@@ -18,16 +19,21 @@ void init_All(SYSTEMTIME *Time, uint i)
 	lcd_init();
 	delayms(10);
 
+	DS1302_Stop(1);	//	暂停计时												  
+
 	year = (DateStr[10] - '0') + (DateStr[9] - '0') * 10;
+
 	for (i = 0; i < 3; ++ i ) tem[i] = DateStr[i];
 	tem[3] = '\0';
-   	month = calendar_month_Word2value(tem);
+   	
+	month = calendar_month_Word2value(tem);
 	day = (DateStr[5] - '0') + (DateStr[4] - '0') * 10;
 
-	h = (DateStr[1] - '0') + (DateStr[0] - '0') * 10;
-	m = (DateStr[4] - '0') + (DateStr[3] - '0') * 10;
-	s = (DateStr[7] - '0') + (DateStr[6] - '0') * 10;
-	DS1302_Stop(1);
+	h = (TimeStr[1] - '0') + (TimeStr[0] - '0') * 10;
+	m = (TimeStr[4] - '0') + (TimeStr[3] - '0') * 10;
+	s = (TimeStr[7] - '0') + (TimeStr[6] - '0') * 10;
+	
+	DS1302_SetTime(DS1302_WEEK, 2);
 
 	DS1302_SetTime(DS1302_YEAR, year);
 	DS1302_SetTime(DS1302_MONTH, month);
@@ -36,7 +42,9 @@ void init_All(SYSTEMTIME *Time, uint i)
 	DS1302_SetTime(DS1302_MINUTE, m);
 	DS1302_SetTime(DS1302_SECOND, s);
 
-	DS1302_Stop(0);
+		
+
+	DS1302_Stop(0);	//	重新计时	
 }
 /**************************************/
 
@@ -46,14 +54,13 @@ void init_All(SYSTEMTIME *Time, uint i)
 
 //void main() // test
 //{
-//	DS1302_Initial();
-//	lcd_init();
+//	SYSTEMTIME time;
+//	init_All(&time);
 //	delayms(10);
 //	year = (DateStr[10] - '0') + (DateStr[9] - '0') * 10;
 //	while (1)
 //	{
-//		lcd_disString(FLine, TimeStr);
-//		lcd_disString(SLine, DateStr);
+//		calendar_homePage();
 //	}
 //}
 
@@ -100,7 +107,7 @@ void main()
 				break;
 			case 2:	// lunar date
 				lcd_wcmd(0x01); 
-				calendar_editAndLookupLunarDate();
+				calendar_editAndLookupLunarDate(&time);
 				flag = 0;
 				break;
 			case 3:	//	empty
